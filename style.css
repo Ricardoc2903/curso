@@ -1,0 +1,65 @@
+body{
+  background-color: #ffffff;
+  margin: 0;
+}
+
+.main{
+  margin: 1rem;
+}
+
+h1, h2{
+  color: #333; 
+  font-size: 2.5em; 
+  text-align: center;
+  text-decoration: underline;
+}
+
+.inicio p, li{
+  font-size: x-large;
+}
+
+img{
+  width: 35rem;
+  height: 30rem;
+}
+
+iframe{
+  width: 90%;
+  height: 40rem; 
+  padding-left: 3rem;
+}
+
+.header{
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.flex a{
+  text-decoration: none;
+  color: black;
+}
+
+.flex a:hover{
+  color: rgb(0, 68, 195);
+}
+
+.tutorial{
+  width: 50%;
+}
+.ubi{
+  width: 50%;
+}
+.redes{
+  display: flex;
+  justify-content: center;
+}
