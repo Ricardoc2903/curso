@@ -1,65 +1,163 @@
-body{
-  background-color: #ffffff;
+body {
+  background-color: #fff8f0;
   margin: 0;
 }
 
-.main{
+.main {
   margin: 1rem;
 }
 
-h1, h2{
-  color: #333; 
-  font-size: 2.5em; 
+h1,
+h2 {
+  color: #5a3921;
+  font-size: 2.5em;
   text-align: center;
   text-decoration: underline;
+  font-family: "Libre Baskerville", serif;
 }
 
-.inicio p, li{
+.inicio p,
+li {
   font-size: x-large;
+  color: #333333;
 }
 
-img{
+.hero {
+  padding: 2rem;
+  background-color: #f5e6d3;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width: 950px) {
+  .hero {
+    flex-wrap: wrap;
+  }
+
+  .iframes{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .iframes {
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+  }
+}
+
+.empanadas img {
   width: 35rem;
-  height: 30rem;
+  height: 20rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
 
-iframe{
+.iframes {
+  padding: 2rem;
+  background-color: #f5e6d3;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+iframe {
   width: 90%;
-  height: 40rem; 
+  height: 40rem;
   padding-left: 3rem;
 }
 
-.header{
-  background-color: gray;
+.header {
+  background-color: #8b5e34;
   margin: 0;
   padding: 0;
+  padding-right: 1rem;
 }
 
-.flex{
+.flex {
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
   font-size: 1.5rem;
   list-style: none;
   flex-wrap: wrap;
 }
 
-.flex a{
-  text-decoration: none;
-  color: black;
-}
-
-.flex a:hover{
-  color: rgb(0, 68, 195);
-}
-
-.tutorial{
-  width: 50%;
-}
-.ubi{
-  width: 50%;
-}
-.redes{
+.otras-recetas {
   display: flex;
   justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.anchor a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.anchor a:hover {
+  color: #b45309;
+}
+
+#logo {
+  width: 20.8rem;
+  height: 100%;
+}
+
+.redes img {
+  width: 2rem;
+  height: 2rem;
+}
+
+nav h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.3rem;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.tutorial {
+  width: 50%;
+}
+
+.ubi {
+  width: 50%;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+footer {
+  background-color: #8b5e34;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff8f0;
+  flex-wrap: wrap;
+}
+
+.maps iframe {
+  width: 100%;
+  height: 5rem;
 }
